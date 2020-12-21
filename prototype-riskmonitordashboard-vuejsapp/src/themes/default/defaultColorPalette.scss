@@ -1,0 +1,29 @@
+//Color definition 
+$primary:#694ed6;
+$secondary:#c137a2;
+$secondary-red: #f05055;
+$secondary-red--dark:#e3241c;
+$error: red;
+$info: rgb(33, 150, 243);
+$success:green;
+$warning: rgb(255, 193, 7);
+$text--black: #000;
+$text--white: #fff;
+$darkColor: #414141;
+$greyColor:#F5F5F5;
+
+$defaultGradient:[ $primary, $primary, $secondary, $secondary-red, $secondary-red--dark ];
+$defaultDashboardGradient: linear-gradient(45deg, rgb(105, 78, 214), rgb(193, 55, 162));
+
+:export {
+    primary: $primary;
+    secondary: $secondary;
+    errors: $error;
+    infos: $info;
+    successColor: $success;
+    warningColor: $warning;
+    defaultGradient: $defaultGradient;
+    darkColor: $darkColor;
+    greyColor: $greyColor;
+    defaultDashboardGradient: $defaultDashboardGradient;
+}

@@ -1,0 +1,27 @@
+.v-input--selection-controls {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.v-text-field {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.open-deposit--selection-controls {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.open-deposit--label-controls {
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .open-deposit--selection-controls {
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .open-deposit--label-controls {
+        margin-top: 0px;
+    }
+}

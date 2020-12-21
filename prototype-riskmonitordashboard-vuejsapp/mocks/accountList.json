@@ -1,0 +1,82 @@
+{
+    "accountsList": [{
+        "type": "SVGS",
+        "label": "Savings",
+        "list": [{
+            "accountName": "Saving Account 1",
+            "accountNumber": 1234567890,
+            "currency": "GBP",
+            "balance": "500.00",
+            "status": "Active"
+        },{
+            "accountName": "Saving Account 2",
+            "accountNumber": 1234567891,
+            "currency": "GBP",
+            "balance": "1000.00",
+            "status": "Closed"
+        },
+        {
+            "accountName": "Saving Account 3",
+            "accountNumber": 1234567892,
+            "currency": "GBP",
+            "balance": "3500.00",
+            "status": "Active"
+        }],
+        "headers": [
+            { "text": "Account Name", "value": "accountName", "sortable": false, "filterable": false },
+            { "text": "Account Number", "value": "accountNumber", "sortable": false, "filterable": false },
+            { "text": "Currency", "value": "currency", "sortable": false, "filterable": false },
+            { "text": "Balance", "value": "balance", "sortable": false, "filterable": false },
+            { "text": "Status", "value": "status", "sortable": false, "filterable": true },
+            { "text": "Actions", "value": "action", "sortable": false, "align": "center"}
+        ]
+    },{
+        "type": "CACC",
+        "label": "Current",
+        "list": [{
+            "accountName": "Current Account 1",
+            "accountNumber": 1234567893,
+            "currency": "GBP",
+            "balance": "3000.00",
+            "status": "Active"
+        },{
+            "accountName": "Current Account 2",
+            "accountNumber": 1234567894,
+            "currency": "GBP",
+            "balance": "4000.00",
+            "status": "Closed"
+        }],
+        "headers": [
+            { "text": "Account Name", "value": "accountName", "sortable": false, "filterable": false },
+            { "text": "Account Number", "value": "accountNumber", "sortable": false, "filterable": false },
+            { "text": "Currency", "value": "currency", "sortable": false, "filterable": false },
+            { "text": "Balance", "value": "balance", "sortable": false, "filterable": false },
+            { "text": "Status", "value": "status", "sortable": false, "filterable": true },
+            { "text": "Actions", "value": "action", "sortable": false, "align": "center"}
+        ]
+    },{
+        "type": "TD",
+        "label": "Deposits",
+        "list": [{
+            "accountName": "Deposit 1",
+            "accountNumber": 1234567895,
+            "currency": "GBP",
+            "balance": "4000.00",
+             "status": "Active"
+        },{
+            "accountName": "Deposit 2",
+            "accountNumber": 1234567896,
+            "currency": "GBP",
+            "balance": "4000.00",
+            "status": "Closed"
+        }],
+        "headers": [
+            { "text": "Account Name", "value": "accountName", "sortable": false, "filterable": false },
+            { "text": "Account Number", "value": "accountNumber", "sortable": false, "filterable": false },
+            { "text": "Currency", "value": "currency", "sortable": false, "filterable": false },
+            { "text": "Balance", "value": "balance", "sortable": false, "filterable": false },
+            { "text": "Status", "value": "status", "sortable": false, "filterable": true },
+            { "text": "Actions", "value": "action", "sortable": false, "align": "center"}
+        ]
+    }]
+}

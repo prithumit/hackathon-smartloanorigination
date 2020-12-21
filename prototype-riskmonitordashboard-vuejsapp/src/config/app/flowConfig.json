@@ -1,0 +1,47 @@
+{
+    "savings": {
+        "label": "Savings",
+        "desc": "Product Description",
+        "icon": "mdi-account-circle",
+        "steps": [{
+            "name": "Account Information",
+            "component": "OpenSavingsAccount",
+            "enable": true,
+            "propName": "productsData"
+        },{
+            "name": "Confirmation",
+            "component": "OpenSavingsAccount",
+            "enable": true
+        }]
+    },
+    "current": {
+        "label": "Current",
+        "desc": "Product Description",
+        "icon": "mdi-account-circle",
+        "steps": [{
+            "name": "Account Information",
+            "component": "OpenSavingsAccount",
+            "propName": "productsData",
+            "enable": true
+        },{
+            "name": "Confirmation",
+            "component": "OpenSavingsAccount",
+            "enable": true
+        }]
+    },
+    "deposit": {
+        "label": "Deposit",
+        "desc": "Product Description",
+        "icon": "mdi-account-circle",
+        "steps": [{
+            "name": "Open Deposit Account",
+            "component": "OpenDeposit",
+            "enable": true,
+            "propName": "depositFormData"
+        },{
+            "name": "Confirmation",
+            "component": "ConfirmDeposit",
+            "enable": true
+        }]
+    }
+}

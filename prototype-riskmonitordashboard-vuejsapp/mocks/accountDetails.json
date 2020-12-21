@@ -1,0 +1,20 @@
+{
+    "accountDetails": [{
+        "partyId": "PTY0001",
+        "accountId": "0543123467001",
+        "accountName": "Savings Account",
+        "accountBalance": "7000",
+        "blockedAmount": "1000",
+        "minimumBalance": "1000",
+        "currency": "GBP",
+        "customerType": "PERSON",
+        "accountType": "CACC",
+        "accountStatus": "ACTIVE",
+        "accountOwnership": "SOLE",
+        "postingsRestriction": "DEBITCREDIT",
+        "iban": "GB33BUKB20201555555555",
+        "bban": "NWBK60161331926819",
+        "branchOpened": "Manila",
+        "dateOfOpen": "05-05-2004"
+    }]
+}

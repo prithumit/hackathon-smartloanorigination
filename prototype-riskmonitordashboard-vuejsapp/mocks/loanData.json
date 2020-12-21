@@ -1,0 +1,105 @@
+{
+    "data": {
+            "customerId": "PTY0109",
+            "customerName": "John Doe",
+            "loanAC": "5010P01090016",
+            "loanType": "Personal Loan - FlexiPAY",
+            "tenure": "36 Months",
+            "maturityDate": "18-12-2023",
+            "loanAmount": "5000.0 GBP",
+            "interestRate": "8% PA",
+            "repaymentEMIAmount": "217.76 GBP",
+            "monthlyStatus": [
+                {
+                    "month": "MAR",
+                    "year": "2020",
+                    "avgIncome": 2000.0,
+                    "avgExpense": 1000.0,
+                    "repaymentEMI": 217.76,
+					"balance": 3000.0,
+                    "repaymentRiskFactor": "0",
+                    "repaymentStatus": "Completed"
+                },
+                {
+                    "month": "APR",
+                    "year": "2020",
+                    "avgIncome": 2400.0,
+                    "avgExpense": 1200.0,
+                    "repaymentEMI": 217.76,
+					"balance": 3500.0,
+                    "repaymentRiskFactor": "0",
+                    "repaymentStatus": "Completed"
+                },
+                {
+                    "month": "MAY",
+                    "year": "2020",
+                    "avgIncome": 2000.0,
+                    "avgExpense": 1100.0,
+                    "repaymentEMI": 217.76,
+                    "repaymentRiskFactor": "0",
+					"balance": 3200.0,
+                    "repaymentStatus": "Completed"
+                },
+                {
+                    "month": "JUN",
+                    "year": "2020",
+                    "avgIncome": 1000.0,
+                    "avgExpense": 800.0,
+                    "repaymentEMI": 217.76,
+					"balance": 2400.0,
+                    "repaymentRiskFactor": "20",
+                    "repaymentStatus": "Completed"
+                },
+                {
+                    "month": "JUL",
+                    "year": "2020",
+                    "avgIncome": 1200.0,
+                    "avgExpense": 1000.0,
+                    "repaymentEMI": 217.76,
+					"balance": 2000.0,
+                    "repaymentRiskFactor": "30",
+                    "repaymentStatus": "Completed"
+                },
+                {
+                    "month": "AUG",
+                    "year": "2020",
+                    "avgIncome": 1000.0,
+                    "avgExpense": 1500.0,
+                    "repaymentEMI": 217.76,
+					"balance": 1500.0,
+                    "repaymentRiskFactor": "50",
+                    "repaymentStatus": "Scheduled"
+                },
+                {
+                    "month": "SEP",
+                    "year": "2020",
+                    "avgIncome": 1000.0,
+                    "avgExpense": 1500.0,
+                    "repaymentEMI": 217.76,
+					"balance": 1000.0,
+                    "repaymentRiskFactor": "70",
+                    "repaymentStatus": "Projected"
+                },
+                {
+                    "month": "OCT",
+                    "year": "2020",
+                    "avgIncome": 800.0,
+                    "avgExpense": 1200.0,
+                    "repaymentEMI": 217.76,
+					"balance": 500.0,
+                    "repaymentRiskFactor": "90",
+                    "repaymentStatus": "Projected"
+                },
+                {
+                    "month": "NOV",
+                    "year": "2020",
+                    "avgIncome": 1000.0,
+                    "avgExpense": 1200.0,
+                    "repaymentEMI": 217.76,
+					"balance": 300.0,
+                    "repaymentRiskFactor": "85",
+                    "repaymentStatus": "Projected"
+                }
+            ]
+        }
+}

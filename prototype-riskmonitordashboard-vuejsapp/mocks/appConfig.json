@@ -1,0 +1,34 @@
+{
+  "name": "dob",
+  "title": "Digital Branch",
+  "helpText": "https://www.finastra.com",
+  "menuStructure": [
+    {
+      "icon": "mdi-view-dashboard",
+      "title": "Home",
+      "path": "/home",
+      "name": "Home"
+    },
+    {
+      "icon": "mdi-account",
+      "title": "Accounts",
+      "path": "/accounts",
+      "name": "Accounts"
+    }
+  ],
+  "loginConfiguration": {
+    "resetPasswordType": {
+      "withEmail": true,
+      "withOTP": false
+    },
+    "passwordPolicyType": "LOGIN_PASSWORD_POLICY"
+  },
+  "headerConfig": {
+    "breadcrumb": true,
+    "searchComponent": true,
+    "fullscreen": true,
+    "helpComponent": true,
+    "notificationComponent": true,
+    "profileComponent": true
+  }
+}

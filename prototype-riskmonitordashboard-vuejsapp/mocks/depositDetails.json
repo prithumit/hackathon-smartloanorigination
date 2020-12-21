@@ -1,0 +1,25 @@
+
+{
+    "capitalizationMethod": "Renew Principal and Interest",
+    "fundingAccountId": "254361254365/010101TEST12300",
+    "interestAmount": {
+        "currency": "EUR",
+        "value": "200.28"
+    },
+    "interestPayout": "Periodic",
+    "interestRate": 5,
+    "lastBreakageDate": "2019-07-04",
+    "maturityAmount": {
+        "currency": "EUR",
+        "value": "200.28"
+    },
+    "maturityDate": "2019-02-04",
+    "originalPrincipal": {
+        "currency": "EUR",
+        "value": "200.28"
+    },
+    "payCapitalToAccount": "010101TEST12300",
+    "payInterestToAccount": "010101TEST12300",
+    "startDate": "2019-02-04",
+    "status": "NEW"
+}

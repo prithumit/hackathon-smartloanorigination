@@ -1,0 +1,65 @@
+{
+    "common": {
+        "yes": "Oui",
+        "no": "Non",
+        "and": "et",
+        "okay": "D'ACCORD",
+        "saveButton_text": "Enregistrer",
+        "success": "Succès!",
+        "cancelButton_text": "Annuler",
+        "confirmation_message": "Êtes-vous sûr?",
+        "help": "Aidez-moi",
+        "search": "Chercher",
+        "confirm": "Confirmer", 
+        "welcomeText": "Bienvenue",
+        "loginusernamePlaceholder": "Nom d'utilisateur",
+        "loginpasswordPlaceholder": "Mot de passe",
+        "loginButtonPlaceholder": "Connexion",
+        "logoutText": "Déconnexion",
+        "signoutText": "Déconnexion",
+        "RememberPlaceholder": "Souviens-toi de moi",
+        "ForgotPasswordPlaceholder": "Mot de passe oublié?",
+        "viewProfilePlaceholder": "Voir le profil",
+        "loginAgain": "Se connecter à nouveau",
+        "logoutHeaderText": "Vous avez réussi à vous déconnecter de l'application",
+        "logoutBodyText": "MERCI D'UTILISER LA BRANCHE NUMÉRIQUE!",
+        "idleTimeoutTitle": "Session Time Out",
+        "idleTimeoutContent": "La session est expirée, veuillez vous reconnecter.",
+        "submitButton": "soumettre"
+    },
+    "header": {
+        "headerText": "ceci est un en-tête",
+        "tooltip_fullScreen": "Plein écran"
+    },
+    "stepper": {
+        "footer": {
+            "previous": "Précédent",
+            "next": "Prochain"
+        }
+    },
+    "errors": {
+        "common": {
+            "years": "years",
+            "minimum": "minimum",
+            "maximum": "maximum",
+            "characters": "Characters",
+            "format": "Format!",
+            "invalid": "Invalid"
+        },
+        "email": {
+            "required": "E-mail is required",
+            "invalid": "Valid e-mail address is required"
+        },
+        "phone_number": {
+            "required": "Phone number is required",
+            "invalid": "Valid phone number is required"
+        },
+        "phone_characters": "Valid phone number is required",
+        "date": {
+            "min": "Age should not be less than ",
+            "max": "Age should not be greater than ",
+            "year": "Invalid Date",
+            "invalid": "Invalid format"
+        }
+    }
+}

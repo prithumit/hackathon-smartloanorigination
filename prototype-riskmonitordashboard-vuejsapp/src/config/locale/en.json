@@ -1,0 +1,247 @@
+{
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "greeting": "Hi",
+    "and": "and",
+    "okay": "OK",
+    "applyLabel": "Apply Now",
+    "moreDetails": "More Details",
+    "saveButton_text": "Save",
+    "success": "Success!",
+    "cancelButton_text": "Cancel",
+    "confirmation_message": "Are you sure you want to log out?",
+    "confirmationLabel": "Confirmation",
+    "help": "Help",
+    "next": "Next",
+    "or": "or",
+    "confirmLabel": "Confirm",
+    "needHelp": "Need Help Logging in?",
+    "quickLinks": "Quick Links",
+    "accountInquiryLabel": "View Account Details",
+    "previous": "Previous",
+    "search": "Search",
+    "welcomeText": "Welcome",
+    "forgot": "Forgot",
+    "support": "Support",
+    "secure": "Secure",
+    "finastraContactLink": "Finastra.com",
+    "activateUser": "Activate Online Banking",
+    "loginusernamePlaceholder": "Username",
+    "loginpasswordPlaceholder": "Password",
+    "loginButtonPlaceholder": "Login",
+    "clearButtonPlaceholder": "Clear",
+    "faqLink": "Online Banking FAQs",
+    "contactUs": "Contact Us",
+    "logoutText": "Logout",
+    "closeAccountMessage": "Are you sure you want to close the account?",
+    "closeAccount": "Close Account?",
+    "signoutText": "Signout",
+    "rememberPlaceholder": "Remember me",
+    "resetPasswordPlaceholder": "Reset Your Password",
+    "retrieveLoginId": "Retrieve User ID",
+    "registerForOnlineBanking": "Register for Online Banking",
+    "viewProfilePlaceholder": "View Profile",
+    "loginAgain": "Login Again",
+    "logoutHeaderText": "You Successfully logged out from the application",
+    "logoutBodyText": "THANK YOU FOR USING DIGITAL ONLINE BANKING!",
+    "idleTimeoutTitle": "Session Time Out",
+    "idleTimeoutContent": "Session is expired, please login again.",
+    "bankTitle": "Digital Branch",
+    "stepConfirmationText": "Please verify the details you have entered: ",
+    "cookiePolicy": " uses cookies to ensure you get the best experience in our website. To find out more read our updated",
+    "privacyPolicy": "privacy and cookie policy",
+    "goBack": "Go back",
+    "savingsLabel": "Savings Account",
+    "currentLabel": "Current Account",
+    "depositsLabel": "Deposits",
+    "accountsNotFound": "No Accounts Found",
+    "noAccountsAvailbale": "Please click on Apply Now link to explore different options for opening a Savings/Current/Deposit account."
+  },
+  "login": {
+    "invalidLoginMessage": "Invalid username or password",
+    "resetPassword": {
+      "title": "",
+      "userId": "Enter User ID",
+      "userIdLabel": "User ID",
+      "partyId": "Enter Party ID",
+      "resetPasswordMessage": "A message has been sent to your email address. Please click on the link in the email to reset your password",
+      "resendPasswordMessage": "A message has been re-sent to your email address. Please click on the link in the email to reset your password",
+      "resetPasswordOTPText": "Please enter the OTP sent to registered mobile number and email",
+      "resetPasswordOTPLabel": "Enter OTP",
+      "resendLabel": "Resend OTP",
+      "passwordResetSuccess": "You have successfully set your new password.",
+      "passwordPolicies": "Password Policies <b/> Must contain upper case letter <b/> Must contain lower case letter",
+      "passwordPolicyLabel": "Password must contain:",
+      "newPasswordLabel": "Enter new password",
+      "renewPasswordLabel": "Re-enter new password",
+      "passwordMismatch": "Password Mismatch!"
+    }
+  },
+  "home": {
+    "customerCard": {
+      "customerId": "Customer ID",
+      "loanAC": "Loan Account",
+      "loanType": "Loan Type",
+      "tenure": "Tenure",
+      "maturityDate": "Maturity Date",
+      "loanAmount": "Loan Amount",
+      "interestRate": "Interest Rate",
+      "repaymentEMIAmount": "Repayment EMI Amount"
+    }
+  },
+  "retrieveLoginId": {
+    "email": "Enter Email",
+    "dob": "Enter Date of Birth in MM/DD/YYYY",
+    "lastName": "Enter Last Name",
+    "partyId": "Enter Customer ID",
+    "idNumber": "Enter ID Number",
+    "dobHint": "Enter Bate of Birth in MM/DD/YYYY",
+    "retrieveLoginIdConfirmMsg": "We have found you. Where do you want us to send your retrieved user ID?",
+    "sendToEmail": "Send to registered e-mail",
+    "sendToMobile": "Send to registered mobile number"
+  },
+  "faq": {
+    "faqTitle": "FAQs"
+  },
+  "header": {
+    "headingText": "this is a header",
+    "tooltip_fullScreen": "Full Screen"
+  },
+  "photoCapture": {
+    "capture_selfie": "Capture Selfie",
+    "loading_progress": "Loading...",
+    "upload_info": "Maximum size of uploaded files should be",
+    "supported_type": "File types supported are images and pdf",
+    "camera_button": "Camera",
+    "browse_button": "Browse",
+    "face_the_camera": "Take selfie",
+    "image_size_exceeded": "Image is too large !",
+    "crop_image": "Crop the image",
+    "deleteTitle": "Remove",
+    "confirmDelete": "Are you sure you to delete the uploaded",
+    "addressDoc": "Address Proof",
+    "addressDocPreview": "Address Proof Preview",
+    "customerDoc": "Profile Photo",
+    "uploadPhoto": "Upload Profile Photo",
+    "uploadProof": "Upload Address Proof",
+    "questionMark": " ?"
+  },
+  "otp": {
+    "resendMessage": "OTP has been resent. It expires in ",
+    "unit": {
+      "minute": " minutes"
+    }
+  },
+  "accountDetails": {
+    "accountName": "Account Name",
+    "accountNumber": "Account Number",
+    "accountSummary": "Account Summary",
+    "accountBalance": "Available Balance",
+    "blockedAmount": "Blocked Amount",
+    "accountDetails": "Account Details",
+    "accountStatus": "Account Status",
+    "accountType": "Account Type",
+    "minimumBalance": "Minimum Balance",
+    "jointAccount": "Joint Account",
+    "dateOpened": "Date Opened",
+    "branch": "Branch",
+    "transactionDetails": "Transaction Details",
+    "getStatement": "Get Statement",
+    "viewDetails": "View Details"
+  },
+  "personalSettings": {
+    "updateStatus": "Update Status",
+    "updateSuccess": "Your profile details has been updated successfully !",
+    "label": {
+      "personalDetails": "Personal Details",
+      "addressDetails": "Address Details",
+      "emailAddress": "Email Address",
+      "mobile": "Mobile Number",
+      "address": "Address",
+      "selectAddressMethod": "Select the address input method",
+      "postcode": "Postcode",
+      "country": "Country",
+      "state": "State",
+      "city": "City",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "otpTitle": "Confirm the OTP"
+    },
+    "buttons": {
+      "modify": "Modify",
+      "addressProof": "Upload Address Proof",
+      "save": "Save",
+      "saveDetails": "Save Details",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "close": "Close"
+    },
+    "fileUpload": {
+      "info": "Please select pdf files only",
+      "label": "Please upload address proof for verification",
+      "warning": "File is too large !",
+      "error": "Please select only pdf files",
+      "message": "Document View",
+      "failureMessage": "Upload bank statement to verify nominated account details in order to proceed",
+      "invalidMessage": "Entered Data is Invalid!",
+      "processingErrorMessage": "Oops, something went wrong - try again in some time",
+      "modalTitle": "Address Proof",
+      "preview": "Preview Address Proof"
+    }
+  },
+  "termdepositDetails": {
+    "sortCode": "Sort Code",
+    "interestRate": "Interest Rate",
+    "interestPayout": "Interest Payout",
+    "onMaturity": "On Maturity",
+    "maturityAmount": "Maturity Amount",
+    "maturityDate": "Maturity Date",
+    "payAwayAccount": "Pay away Account",
+    "status": "Account Status",
+    "lastBreakageDate": "Last Breakage Date",
+    "maturityInstructions": "Maturity Instructions",
+    "startDate": "Start Date",
+    "principalAmount": "Original Amount",
+    "interestMaturityAmount": "Interest Maturity Amount",
+    "capitalPayAwayAccount": "Capital Pay Away Account",
+    "interestPayAwayAccount": "Interest Pay Away Account",
+    "fundingAccount": "Funding Account",
+    "selectEmpty": "Please select a duration",
+    "tenor": "Tenor",
+    "amend": "Amend",
+    "break": "Break"
+  },
+  "docUpload": {
+    "title": "Upload Address Proof",
+    "selectFile": "Select File",
+    "browse": "Browse",
+    "save": "Save"
+  },
+  "errors": {
+      "common": {
+          "years": "years",
+          "minimum": "minimum",
+          "maximum": "maximum",
+          "characters": "Characters",
+          "format": "Format!",
+          "invalid": "Invalid",
+          "required": "Required"
+      },
+      "email": {
+          "required": "E-mail is required",
+          "invalid": "Valid e-mail address is required"
+      },
+      "phone_number": {
+          "required": "Phone number is required",
+          "invalid": "Valid phone number is required"
+      },
+      "phone_characters": "Valid phone number is required",
+      "date": {
+          "min": "Age should not be less than ",
+          "max": "Age should not be greater than ",
+          "year": "Invalid Date",
+          "invalid": "Invalid format"
+      }
+  }
+}

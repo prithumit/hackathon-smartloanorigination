@@ -1,0 +1,25 @@
+  .loginTitle {
+    text-align: center;
+  }
+  .custom-textfield {
+    .v-input__control > .v-input__slot {
+      background-color: #f0eff7 !important;
+    }
+  }
+  .login_page_links {
+    text-decoration: none;
+  }
+  .login__bgImages {
+    height: 100%;
+    width: 100%;
+    right: 0px;
+    position: absolute;
+    background-size: 100% 100%;
+    background-color: white;
+  }
+  .login__alignCard {
+    margin-top: 100px;
+  }
+  .login__secureLoginImage {
+    float: right;
+  }

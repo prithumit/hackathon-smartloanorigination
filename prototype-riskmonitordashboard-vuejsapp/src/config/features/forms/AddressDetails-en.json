@@ -1,0 +1,150 @@
+{
+  "title": "Address Information",
+  "schema": {
+    "postalCode": {
+      "type": "text",
+      "readonly": true,
+      "label": "Postcode",
+      "color": "primaryColor",
+      "data-qa": "postCode",
+      "autocomplete": "off",
+      "regex": "^([^ !@#\\$%\\^&\\*][a-zA-Z0-9 ]*)$",
+      "maxLength": 8,
+      "data-type": "postcode-lookup",
+      "componentKeyEnable": "postalCode",
+      "rules": [
+        "required",
+        "requiredLen(1,1)",
+        "maxLen(8,8)",
+        "minLen(6,6)"
+      ],
+      "flex": {
+        "xs": 6,
+        "sm": 7,
+        "md": 7,
+        "lg": 9
+      }
+    },
+    "button": {
+      "type": "btn",
+      "data-relation": "postalCode",
+      "trigger-info": 6,
+      "label": "Find Address",
+      "class": "search",
+      "disabled": true,
+      "small": true,
+      "rounded": true,
+      "color": "primaryColor",
+      "flex": {
+        "xs": 2,
+        "sm": 3,
+        "md": 3,
+        "lg": 3
+      }
+    },
+    "country": {
+      "type": "select",
+      "label": "Country",
+      "color": "primaryColor",
+      "readonly": true,
+      "items": [
+        "United Kingdom",
+        "Canada",
+        "India"
+      ],
+      "flex": {
+        "xs": 12,
+        "sm": 6,
+        "lg": 6
+      },
+      "rules": [
+        "required",
+        "requiredLen(1,1)",
+        "maxLen(50,50)",
+        "minLen(4,4)"
+      ]
+    },
+    "state": {
+      "type": "text",
+      "readonly": true,
+      "maxlength": 255,
+      "label": "State",
+      "data-qa": "state",
+      "regex": "^([^ !@#\\$%\\^&\\*0-9][a-zA-Z ]*)$",
+      "color": "primaryColor",
+      "autocomplete": "off",
+      "flex": {
+        "xs": 12,
+        "sm": 6,
+        "lg": 6
+      },
+      "rules": [
+        "required",
+        "requiredLen(1,1)"
+      ]
+    },
+    "townOrCity": {
+      "type": "text",
+      "readonly": true,
+      "maxlength": 255,
+      "label": "City",
+      "data-qa": "townOrCity",
+      "regex": "^([^ !@#\\$%\\^&\\*0-9][a-zA-Z ]*)$",
+      "color": "primaryColor",
+      "autocomplete": "off",
+      "flex": {
+        "xs": 12,
+        "sm": 6,
+        "lg": 6
+      },
+      "rules": [
+        "required",
+        "requiredLen(1,1)"
+      ]
+    },
+    "line1": {
+      "type": "text",
+      "readonly": true,
+      "maxlength": 255,
+      "label": "Address Line 1",
+      "data-qa": "line1",
+      "regex": "^(([^ !@#\\$%\\^&\\*0-9][a-zA-Z ]*){1,225})$",
+      "color": "primaryColor",
+      "autocomplete": "off",
+      "selected": 0,
+      "flex": {
+        "xs": 12,
+        "sm": 6,
+        "lg": 6
+      },
+      "rules": [
+        "required",
+        "requiredLen(1,1)"
+      ]
+    },
+    "line2": {
+      "type": "text",
+      "readonly": true,
+      "maxlength": 255,
+      "label": "Address Line 2",
+      "data-qa": "line2",
+      "regex": "^([^ !@#\\$%\\^&\\*0-9][a-zA-Z ]*)$",
+      "color": "primaryColor",
+      "autocomplete": "off",
+      "selected": 0,
+      "flex": {
+        "xs": 12,
+        "sm": 6,
+        "lg": 6
+      }
+    }
+  },
+  "model": {
+    "postalCode": "CA62AG",
+    "country": "United Kingdom",
+    "state": "ELY",
+    "townOrCity": "Birmingham",
+    "line1": "Edinburgh",
+    "line2": "LiverPool Street"
+  }
+}

@@ -1,0 +1,10 @@
+.otpInput {
+	&__padding {
+	.v-text-field__details {
+		display: none;
+		}
+	}
+	.v-input__control {
+		width: auto !important;
+	}
+}

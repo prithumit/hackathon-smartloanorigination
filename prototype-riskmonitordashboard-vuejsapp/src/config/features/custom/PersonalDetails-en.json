@@ -1,0 +1,94 @@
+{
+  "title": "Personal Details",
+  "schema": {
+    "name": {
+      "type": "text",
+      "label": "Name",
+      "disabled": true,
+      "class": "textReview",
+      "data-qa": "name",
+      "regex": "^([^ !@#\\$%\\^&\\*0-9])([a-zA-Z ]*)$",
+      "color": "primaryColor",
+      "flex": {
+        "xs": 12,
+        "sm": 6,
+        "lg": 6
+      },
+      "rules": [
+        "maxLen(75,75)"
+      ]
+    },
+    "dateOfBirth": {
+      "type": "text",
+      "label": "Date of Birth",
+      "disabled": true,
+      "class": "textReview",
+      "color": "primaryColor",
+      "placeholder": "DD-MM-YYYY",
+      "format": "DD-MM-YYYY",
+      "data-format": "date",
+      "data-qa": "dateOfBirth",
+      "regex": "^\\d{2}-\\d{2}-\\d{4}$",
+      "mask": "XX-XX-XXXX",
+      "fieldValidation": true,
+      "flex": {
+        "xs": 12,
+        "sm": 12,
+        "lg": 6
+      },
+      "autocomplete": "off",
+      "rules": [
+        "dateValidation(18,150)",
+        "dateFormatValidate"
+      ]
+    },
+    "emailAddress": {
+      "type": "text",
+      "readonly": true,
+      "label": "Email Address",
+      "data-qa": "emailAddress",
+      "regex": "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$",
+      "color": "primaryColor",
+      "autocomplete": "off",
+      "flex": {
+        "xs": 12,
+        "sm": 6,
+        "lg": 6
+      },
+      "rules": [
+        "required",
+        "requiredLen(1,1)",
+        "emailRequired",
+        "maxLen(75,75)",
+        "pattern('email')"
+      ]
+    },
+    "phoneNumber": {
+      "type": "text",
+      "readonly": true,
+      "label": "Phone Number",
+      "data-qa": "phoneNumber",
+      "prefix": "+91",
+      "maxlength": 10,
+      "regex": "^[^0][0-9]{1,20}$",
+      "color": "primaryColor",
+      "autocomplete": "off",
+      "flex": {
+        "xs": 12,
+        "sm": 6,
+        "lg": 6
+      },
+      "rules": [
+        "required",
+        "requiredLen(1,1)",
+        "phoneNumberLen(10,10)"
+      ]
+    }
+  },
+  "model": {
+    "name": "Leon Gordon",
+    "dateOfBirth": "01-01-1990",
+    "emailAddress": "customer@gmail.com",
+    "phoneNumber": "9123456780"
+  }
+}

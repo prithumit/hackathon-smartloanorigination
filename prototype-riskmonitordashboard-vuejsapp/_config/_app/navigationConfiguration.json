@@ -1,0 +1,48 @@
+{
+    "menuStructure": [
+        {
+            "icon": "mdi-home",
+            "title": "Home",
+            "path": "/home",
+            "name": "Home",
+            "enable": true
+        },
+        {
+            "icon": "mdi-account",
+            "title": "Accounts",
+            "path": "",
+            "name": "Accounts",
+            "enable": false,
+            "views": [
+                {
+                    "icon": "mdi-domain",
+                    "title": "Savings",
+                    "path": "/savings",
+                    "name": "Savings",
+                    "enable": false
+                },
+                {
+                    "icon": "mdi-dialpad",
+                    "title": "Current",
+                    "path": "/current",
+                    "name": "Current",
+                    "enable": false
+                },
+                {
+                    "icon": "mdi-credit-card",
+                    "title": "Deposits",
+                    "path": "/deposits",
+                    "name": "Deposits",
+                    "enable": false
+                }
+            ]
+        },
+        {
+            "icon": "mdi-face-profile",
+            "title": "My Profile",
+            "path": "/myProfile",
+            "name": "MyProfile",
+            "enable": false
+        }
+    ]
+}

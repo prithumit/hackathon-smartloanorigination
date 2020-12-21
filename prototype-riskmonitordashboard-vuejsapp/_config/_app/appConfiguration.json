@@ -1,0 +1,82 @@
+{
+    "applicationSettings": {
+        "applicationName": "Digital Branch",
+        "bankName": "DOB",
+        "companyWebsite": "https://www.finastra.com/",
+        "contactUs": "https://www.finastra.com/contact/sales",
+        "helpUrl": "https://www.finastra.com/sites/default/files/documents/2018/04/brochure_fusion-essence-solution-overview.pdf",
+        "welcomeText": "Welcome",
+        "homeTitle": "FUSION ESSENCE",
+        "homeSubTitle": "Digital Branch",
+        "idleTimeout": 300000
+    },
+    "authConfigurations": {
+        "serverURL": "",
+        "mockURL": "",
+        "access_token": "",
+        "requestId": "",
+        "__comment1__": "For Mock data use customerId as: PTY0001 and enableMock: true/ For Essence data use customerId as: 00000091 and enableMock : false",
+        "customerId": "PTY0001",
+        "enableMock": true
+    },    
+    "defaultConfigurations": {
+        "countryISDCode": "",
+        "enableCustomTheme": false,
+        "enableCustomApplicationLogo": false,
+        "otpResendTimeInterval": 15000,
+        "otpResendValidity": 5,
+        "enableCustomBackgroundImage": true,
+        "maxUploadFileSize": 2048,
+        "uploadCustomerPhotoHeight": 200,
+        "uploadCustomerPhotoWidth": 200,
+        "sortCode": "33452",
+        "segment": "DEFAULT",
+        "currencyFormat": {
+            "currency": "GBP",
+            "minimumFractionDigits": 2,
+            "localeCountry": "en-US"
+        },
+        "dateFormat": {
+          "uiFormat": "DD-MM-YYYY",
+          "showTime": false
+        }
+    },
+    "loginConfiguration": {
+        "resetPasswordType": {
+            "withEmail": false,
+            "withOTP": true
+        },
+        "passwordPolicyType": "LOGIN_PASSWORD_POLICY",
+        "usernameMinLength": 6,
+        "usernameMaxLength": 50,
+        "passwordMinLength": 8,
+        "passwordMaxLength": 50
+    },
+    "headerConfig": {
+        "breadcrumb": true,
+        "searchComponent": true,
+        "fullscreen": true,
+        "helpComponent": true,
+        "notificationComponent": true,
+        "profileComponent": true
+    },
+    "localizationAndLanguageSettings": {
+        "desc": "Localization and Language Settings",
+        "label": "Localization and Language Settings",
+        "defaultLocalizationKey": "en",
+        "appliedLocalizationKey": "en"
+    },
+    "serverSettings": {
+        "desc": "Secure mode and Port number",
+        "label": "Server Settings",
+        "baseUrl": "https://localhost:8000/"
+    },
+    "termsAndConditionContents": [
+        "This will be treated as your consent to store your basic information, in case you have to leave in between and return at a later time to continue with the application.",
+        "If you choose not to pursue the application for any reasons, all your information will automatically deleted after 30 days",
+        "At the time of Exit during the process of application you can also choose to let keep you basic information or delete all your data",
+        "Bank will use your information to verify KYC through third party (<strong>Equifax</strong>)",
+        "Be aware that, Bank will not share your data with any other outside entity without your consent",
+        "As a financial business company, we are required to explain to a party how we will be using their personal data and to obtain their approval. To this end, prior to running the compliance checks, we need a means of communicating a data protection statement and terms and conditions of account opening to a party. We need the wording and appearance of the terms to be multi-language and to be bank-definable for global parties and by the party&apos;s local country and region for local public parties and local private parties. It must be possible to indicate that a data protection statement is not required for global parties or in a specific country and (optionally) region. In the case of a remote application via the internet, the system must provide a means for the party to read the terms and indicate their agreement via a check box. The acquisition process will not proceed until the check box has been completed. In the case of an assisted application via the branch or a call center, the process will be handled in a similar way. The bank officer will be required to obtain the prospective customers agreement and complete the check boxes on their behalf. The acquisition process will not proceed until the check boxes indicating the party&apos;s agreement have been completed.  It must be possible to optionally print a data protection customer document for a party that is present in the branch."
+    ]
+}

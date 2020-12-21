@@ -1,0 +1,19 @@
+.amend-deposit--selection-controls {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.amend-deposit--label-controls {
+    padding-top: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .amend-deposit--selection-controls {
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .amend-deposit--label-controls {
+        padding-top: 0px;
+    }
+}

@@ -1,0 +1,15 @@
+.nav__header {
+    &-logo {
+      background-image: url($logo-path);
+      background-size: contain;
+      height: 50px;
+      width: 90px;
+    }
+    &-avatar {
+      background: $darkColor;
+      color: $greyColor;
+    }
+    &-drawer-submenu {
+      padding-left: 10%;
+    }
+ }

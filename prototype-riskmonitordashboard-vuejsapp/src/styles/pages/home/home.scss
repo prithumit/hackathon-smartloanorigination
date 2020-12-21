@@ -1,0 +1,12 @@
+.home {
+	&__underlined-cursor-pointer {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+}
+.Cookie--blood-orange .Cookie__button {
+	padding: 0.625em 3.125em;
+}
+.Cookie > * {
+	margin: 5px !important;
+}

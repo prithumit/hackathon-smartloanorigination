@@ -1,0 +1,22 @@
+[
+    {
+        "key": "CAPTALISE",
+        "value": "Renew Principal and Interest"
+    },
+    {
+        "key": "PAYAWAYBOTH",
+        "value": "Do not renew"
+    },
+    {
+        "key": "PAYAWAYPRINCIPAL",
+        "value": "Renew Interest only"
+    },
+    {
+        "key": "PAYAWAYINTEREST",
+        "value": "Renew Principal only"
+    },
+    {
+        "key": "NOINSTRUCTION",
+        "value": "No Instruction"
+    }
+]

@@ -1,0 +1,28 @@
+{
+    "faqs": [
+        {
+            "question": "What is Finastra Digital Online Banking?",
+            "answer": "Finastra Digital Online Banking is your online banking facility where you can do your banking transactions using your personal computer, laptop, tablet, or smartphone. What can I do with Finastra Digital Online Banking? \nYou can do the following: • View the details (balances, transactions, and other account information) of all your Current/Savings and Deposit accounts • Apply for a new Current/Savings, or Deposit account"
+        },
+        {
+            "question": "Is Finastra Digital Online Banking available 24/7",
+            "answer": "Yes, you may access Finastra Digital Online Banking 24 hours a day, 7 days a week."
+        },
+        {
+            "question": "Who may sign-up to Finastra Digital Online Banking?",
+            "answer": "Finastra Digital Online Banking is open to all Finastra bank customers."
+        },
+        {
+            "question": "How do I sign-up to Finastra Digital Online Banking?",
+            "answer": "Simply login with the username and password sent to your email by the bank after successfully onboarding."
+        },
+        {
+            "question": "What should I do if I forget my password?",
+            "answer": "You may proceed to do a password reset by clicking the 'Reset Password' under the “Need help logging in?” section. Follow the instructions provided in the next screens and once done, you will receive an email containing a link to a site where you can create a new password."
+        },
+        {
+            "question": "What should I do if I forget my login ID?",
+            "answer": "You may proceed to retrieve your login ID by clicking the 'Retrieve User ID' under the “Need help logging in?” section. Follow the instructions provided in the next screens to retrieve your user ID."
+        }        
+    ]
+}
